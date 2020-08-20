@@ -5,31 +5,33 @@ u_handle = ctypes.WinDLL("User32.dll")
 k_handle = ctypes.WinDLL("kernel32.dll")
 
 PROCESS_ALL_ACCESS = (0x00100000 | 0xF0000 | 0xFFF)
-'''
-Windows API
-
-HWND FindWindowA(
-  LPCSTR lpClassName,
-  LPCSTR lpWindowName
-);
-
-DWORD GetWindowThreadProcessId(
-  HWND    hWnd,
-  LPDWORD lpdwProcessId
-);
-
-HANDLE OpenProcess(
-  DWORD dwDesiredAccess,
-  BOOL  bInheritHandle,
-  DWORD dwProcessId
-);
-
-BOOL TerminateProcess(
-  HANDLE hProcess,
-  UINT   uExitCode
-);
 
 '''
+    Windows API
+
+    HWND FindWindowA(
+        LPCSTR lpClassName,
+        LPCSTR lpWindowName
+    );
+
+    DWORD GetWindowThreadProcessId(
+        HWND    hWnd,
+           LPDWORD lpdwProcessId
+    );
+
+    HANDLE OpenProcess(
+        DWORD dwDesiredAccess,
+        BOOL  bInheritHandle,
+        DWORD dwProcessId
+    );
+
+    BOOL TerminateProcess(
+        HANDLE hProcess,
+        UINT   uExitCode
+    );
+
+'''
+
 # Enter window name
 print('[+] Enter window name')
 window_name = input().encode('utf-8')
