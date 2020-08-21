@@ -75,7 +75,6 @@ response = k_handle.CreateProcessW(
  
 if response != 0:
     print("Process is running!!")
-    print(ctypes.cast(lpProcessInformation, ctypes.py_object).value)
 else:
     print("Create process failed. Error code {}".format(k_handle.GetLastError()))
 
