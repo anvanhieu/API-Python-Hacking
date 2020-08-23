@@ -4,11 +4,11 @@
 
 ## Files
 
-* [HelloWorld.py](HelloWorld.py): show message box use API call with Python.
+* [HelloWorld.py](helloworld.py): show message box use API call with Python.
 
 * [OpenProcess.py](OpenProcess.py): Opens an existing local process object with PID.
 
-* [ProcKiller.py](ProcKiller.py): Kill the process with window name.
+* [ProcKiller.py](prockiller.py): Kill the process with window name.
 
 * [SpawnProc.py](SpawnProc.py): Spawn a process.
 
