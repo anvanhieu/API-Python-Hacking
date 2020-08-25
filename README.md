@@ -1,10 +1,12 @@
 # API-Python-Hacking
 
-## Course: <https://www.udemy.com/course/hacking-the-windows-api-with-python/>
+## Course
+
+<https://www.udemy.com/course/hacking-the-windows-api-with-python/>
 
 ## Files
 
-* [HelloWorld.py](helloworld.py): show message box use API call with Python.
+* [HelloWorld.py](helloworld.py): Show message box use API call with Python.
 
 * [OpenProcess.py](OpenProcess.py): Opens an existing local process object with PID.
 
@@ -14,8 +16,12 @@
 
 * [DNSGetCache.py](DNSGetCache.py): Get DNS Cache table with an undocumented function DNSGetCacheDataTable().
 
-* [OpenToken.py](OpenToken.py): opens the access token associated with a process.
+* [OpenToken.py](OpenToken.py): Opens the access token associated with a process.
+
+* [CheckTokenPrivs.py](CheckTokenPrivs.py): Check privilege(s) be enabled/disabled in access token.
 
 ## References
 
-* <https://techcommunity.microsoft.com/t5/ask-the-performance-team/windows-architecture-the-basics/ba-p/372345>
+* Process and Thread: <https://techcommunity.microsoft.com/t5/ask-the-performance-team/windows-architecture-the-basics/ba-p/372345>
+
+* Access Token: <https://www.elastic.co/blog/introduction-to-windows-tokens-for-security-practitioners>

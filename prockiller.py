@@ -4,7 +4,6 @@ from ctypes import wintypes
 u_handle = ctypes.WinDLL("User32.dll")
 k_handle = ctypes.WinDLL("kernel32.dll")
 
-PROCESS_ALL_ACCESS = (0x00100000 | 0xF0000 | 0xFFF)
 
 '''
     Windows API
@@ -31,6 +30,7 @@ PROCESS_ALL_ACCESS = (0x00100000 | 0xF0000 | 0xFFF)
     );
 
 '''
+PROCESS_ALL_ACCESS = (0x00100000 | 0xF0000 | 0xFFF)
 
 # Enter window name
 print('[+] Enter window name')
