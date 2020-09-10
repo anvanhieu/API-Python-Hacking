@@ -2,7 +2,7 @@
 
 ## Course
 
-<https://www.udemy.com/course/hacking-the-windows-api-with-python/>
+<https://www.udemy.com/course/hacking-the-windows-api-with-python>
 
 ## Files
 
@@ -19,6 +19,10 @@
 * [OpenToken.py](OpenToken.py): Opens the access token associated with a process.
 
 * [CheckTokenPrivs.py](CheckTokenPrivs.py): Check privilege(s) be enabled/disabled in access token.
+
+* [ModifyTokenPrivs.py](ModifyTokenPrivs.py): Modify (enable/disable/remove/...) privilege(s) in access token.
+
+* [Impersonate.py](Impersonate.py): Create a new process (cmd) with same token of a process (Task Manager).
 
 ## References
 
